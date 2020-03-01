@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script>   <!--Local Copy-->
+    <title>jQuery Test</title>
+</head>
+<body>
+    <div>Div 1</div>
+    <div class="hig">Div 2</div>
+    <div id="th">Div 3</div>
+    <div class="hig">Div 4</div>
+    
+</body>
+</html>
+
+<!-- 
+    Solution
+
+    $("div").css("background","purple")
+
+    $("div.hig").css("width","200px")
+                 or
+    $(".hig").css("width","200px")
+
+    $("#th").css("border","1px solid orange")
+    
+    $("div:first-of-type").css("color","pink")        //CSS pseudo selector
+    $("div:first").css("color","pink")               //Built in jQuery shortcut
+    
+-->

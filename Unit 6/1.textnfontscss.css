@@ -1,0 +1,53 @@
+/*fonts-family*/
+p{
+	font-family: "Arial";
+}
+
+h1{
+	font-family: "Georgia";
+}
+/*font-size*/
+body{
+	font-size: 10px;     /*The root level is around 16px*/
+}
+h1{
+	font-size: 2em;
+}
+
+span{
+	font-size: 2em;     /*2 times the size of parent element*/
+}
+p{
+	font-size: 2em;     
+}
+
+
+/*font-weight*/
+/*How bold or how thin*/
+p{
+	font-weight: bold;
+}
+p{
+	font-weight: 100;       /*range of this syntax is 100-800 with resolution of 100*/
+}
+
+/*line-height*/
+p{
+	line-height: 1.5;      /*Multiplies 1.5 to the original height which is decided by font itself */
+}
+/*text-align*/
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+
+/*text-decoration*/
+p{
+	text-decoration: underline;
+}
+h1{
+	text-decoration: line-through;
+}

@@ -1,0 +1,63 @@
+/*3 basic seletors
+
+1.Element
+element{
+
+}
+
+2.ID
+#id{
+
+}
+
+3.Class
+
+.class{
+
+}*/
+
+/*Other important selectors*/
+/*1. Asterisk (*) slector : Applies properties to every element*/
+
+*{
+	border: 1px solid green;
+}
+
+/*2. Descendent selectors*/
+/*Every anchor tag under an li tag*/
+li a{
+	color:red;
+}
+
+/*Nested Example*/
+/*ul li a{
+
+}*/
+
+/*Example with class*/
+/*li .classname{
+
+}*/
+
+/*3.Adjacented Selectors*/
+/*Selects siblings (at the same level) (not nested)*/
+
+/*It selects all ul after h4 at the same level as h4*/
+h4 + ul{
+	border:2px solid red;
+}
+
+/*4. attribute selector*/
+/*Selects all elements with a particular attribute value*/
+a[href="http://www.google.com"]{
+	background: pink;
+}
+
+/*5.nth of type*/
+/*example tenth li, fifth p etc.*/
+ul:nth-of-type(3){
+	background: lightyellow;
+}
+li:nth-of-type(even){
+	background: lightblue;
+}

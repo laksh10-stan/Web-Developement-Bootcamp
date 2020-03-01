@@ -1,0 +1,32 @@
+/*selectors specificity order or priority
+low to high*/
+
+/*1. Type selectors*/
+li{
+
+}
+
+li a{
+
+}
+
+li + a{
+
+}
+
+/*2. Class attributes and pseudo class selectors*/
+
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+
+a:hover
+input:check
+
+/*3. ID Selectors*/
+
+#hello

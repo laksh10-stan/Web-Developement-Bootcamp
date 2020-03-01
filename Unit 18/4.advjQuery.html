@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced jQuery</title>
+    <script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script> 
+</head>
+<body>
+    
+    <h1>jQuery Events</h1>
+    <h1>jQuery Events</h1>
+    <h1>jQuery Events</h1>
+    <button>Don't Hit me</button>
+    <button>Seriously don't you dare Hit me</button>
+    <button>Last Warning</button>
+    <input type="text">
+    
+</body>
+</html>
+<!-- 
+    jQuery Events
+
+    click()
+    keypress()
+    on()
+
+    $("button").click(function(){ 
+    alert("You've hurt me:")
+    });
+
+    $("h1").click(function(){
+    alert("h1 clicked")
+})
+
+$("button").click(function(){
+    alert("one of the button clicked")
+})
+
+$("button").click(function(){
+    $(this).css("background","pink")
+})
+
+$("button").click(function(){
+    var text = $(this).text();
+    console.log("You've clicked " + text);
+});
+
+$("input[type = 'text']").keypress(function(){
+    console.log("You pressed a key");
+})
+
+$("input[type = 'text']").keypress(function(event){
+    console.log(event);
+});
+
+$("input[type = 'text']").keypress(function(event){ 
+    if(event.which ===13){
+        console.log("you've hit enter");
+    }
+});
+
+$("h1").on("click",function(){
+    $(this).css("color", "purple");
+});
+
+$("input").on("keypress",function(){
+    console.log("Keypress");
+});
+
+
+$("button").on("mouseleave",function(){
+    $(this).css("font-weight", "normal");
+});
+
+$("button").on("mouseenter",function(){
+    $(this).css("font-weight", "bold");
+});
+ -->

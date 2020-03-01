@@ -1,0 +1,30 @@
+h1{
+	background: rgba(100,34,211,0.5);
+}
+
+/*Simple color as background*/
+body{
+	background: pink;
+}
+
+/*An image as background*/
+body{
+
+	background: url(http://www.wired.com/images_blogs/threatlevel/2010/09/Haystack.jpg); /*Online image*/
+	background-repeat: no-repeat;       /*Avoid repetition, display image only one time*/
+	background-size: cover;             /*Making the image fill the entire page*/
+}
+
+
+/*Border syntax 1*/
+h1{
+	border-color: purple;
+	border-width: 3px;
+	border-style: solid;;
+}
+
+
+/*Border alternate shotcut syntax*/
+h4{
+	border: 5px dashed purple; 
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inheritence and specificity</title>
+	<style type="text/css">
+		body{
+			color:green;
+		}
+		ul{
+			color: purple;
+		}
+		li{
+			color: red;
+		}
+		.hig{
+			color:pink;
+		}
+		#spec{
+			color:aqua;
+		}
+	</style>
+</head>
+<body>
+	<p>Hello</p>
+	<ul>
+		<li id="spec" class="hig">John</li>
+		<li class="hig">Arya</li>
+		<li>Sansa</li> <!-- li will inherit purple  i.e. property of ul -->
+		<li>Meg</li>
+		<li>Grenn</li> <!-- li will take the property more specific to it i.e. li and not body or ul because they are more general than li -->
+	</ul>
+</body>
+</html>

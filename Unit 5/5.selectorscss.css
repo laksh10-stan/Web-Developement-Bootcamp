@@ -1,0 +1,19 @@
+/*Generalized css : works for every li, p, h1 etc*/
+body{
+	background: rgba(0,0,255,0.3);
+}
+li{
+	border: 2px solid brown;
+}
+
+/*Css using id: selecting single instances of elements*/
+/*uses octothorp access */
+#li2{
+	border: 2px solid yellow;
+}
+
+/*css using class: selecting multiple instances of elements*/
+.laterhalf{
+	border : 1px dotted red;
+	text-decoration: line-through;
+}

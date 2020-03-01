@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Test</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form>
+	<label for="firname">First Name</label>
+	<input id="firname" type="text" name="First Name" required placeholder="Enter First Name">
+	<label for="lastname">Last Name:</label>
+	<input id="lastname" type="text" name="Last Name" placeholder="Enter last nme" required >
+	<br> <!-- We coulde've gone for the div tag also instead of the br tag -->
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="sex" required>
+	<label for="female">Female</label> 
+	<input id="female" type="radio" name="sex" >
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="sex" >
+	<br>
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" pattern=".{5,10}" name="password" required placeholder="passwd bw 5-10 chars">
+	<br>
+	Birthday:
+	<select name="Month">
+		<option value="July">JULY</option>
+		<option value="May">MAY</option>
+		<option value="June">JUNE</option>
+	</select>
+	<select name="Day">
+		<option value="12">12</option>
+		<option value="15">15</option>
+		<option value="21">21</option>
+	</select>
+	<select name="Year">
+		<option value="1999">1999</option>
+		<option value="2000">2000</option>
+		<option value="2020">2020</option>
+	</select>
+	<br>
+	<label for="checkbox">I agree to terms and conditions</label>
+	<input id="checkbox" type="checkbox" name="" required="">
+	<button>Submit</button>
+</form>
+</body>
+</html>

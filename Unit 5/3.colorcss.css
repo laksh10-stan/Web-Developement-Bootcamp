@@ -1,0 +1,31 @@
+h1{
+	color:#000000;
+}
+h2{
+	color:#4B0082;
+}
+h3{
+	color:#FF1493;
+}
+/*First two places represent red component
+Middle two places represent green component
+Last two places represent blue component*/
+
+
+h4{
+	color:rgb(12,55,234);
+}
+h5{
+	color:rgb(255,0,0);
+}
+h6{
+	color:rgb(0,255,0);
+}
+/*RGB is same as hex except the fact that it is in base 10*/
+
+
+p{
+	color:rgba(0,0,0,1);
+}
+/*rgba has an extra component, transparency 0 corresponds to completely transparent
+1 corresponds to completely visible*/

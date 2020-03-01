@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<!-- <form action="" method="post">
+ --><input type="text" placeholder="Enter text">
+	<input type="password" placeholder="Enter password">
+	<input type="submit">
+<!-- </form> -->
+Hello there
+<!-- No enclosing form tags will cause it to be an inline element -->
+<!-- Page is not refreshed in this case.
+Which means nothing is happening -->
+
+
+<!-- However enclosing form tags will cause this to be a block element-->
+<form action="https://wikipedia.org" method="get">
+ <!-- Default action is redirecting to same place -->
+ <!-- Default method is get -->
+<input name="Username" type="text" placeholder="Enter text" >
+	<input name="Password" type="password" placeholder="Enter password" >
+	<input type="submit">
+</form>
+Hello there
+<!-- Page is refreshed in this case.
+Which means something is happening -->
+</body>
+</html>
